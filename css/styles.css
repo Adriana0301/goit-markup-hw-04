@@ -136,7 +136,7 @@ nav .but::after {
 .background {
     background: #2e2f42;
     padding: 188px 0;
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
     display: flex;
     align-items: center;
@@ -179,6 +179,7 @@ button {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 

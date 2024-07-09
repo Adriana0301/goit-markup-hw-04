@@ -208,6 +208,19 @@ button:hover, button:focus {
 
 }
 
+.wrap-icon {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+
 
 /*------------------*/
 
@@ -278,11 +291,43 @@ button:hover, button:focus {
     max-width: 264px;
 }
 
+.footer-text-sm {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-list-container {
+    display: flex;
+    gap: 120px;
+}
+
+.footer-list-sm {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-list-sm .icon {
+    fill: #fff;
+}
+.footer-list-sm .footer-link-sm:hover {
+    background-color: #4d5ae5;;
+}
+
+.wrap-footer {
+
+
+}
+
 /*------------------------------*/
 nav ul li:first-child .but:hover,
 nav ul li:first-child .but:focus {
     color: #404bbf;
 }
+
 
 /*------------Teams-------------*/
 
@@ -326,6 +371,19 @@ nav ul li:first-child .but:focus {
 
 .team-list .people .smalltext {
     text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.team-list-sm {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.team-list-item-sm {
 
 }
 /*-------------------------------*/

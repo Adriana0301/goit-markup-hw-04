@@ -473,7 +473,7 @@ nav ul li:first-child .but:focus {
     gap: 24px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px;
+    margin-top: 8px;
 }
 
 .team-list-item-sm {

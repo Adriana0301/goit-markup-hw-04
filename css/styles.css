@@ -362,7 +362,6 @@ button:hover, button:focus {
 }
 .footer-list-container {
     display: flex;
-    gap: 120px;
     align-items: baseline;
 
 }
